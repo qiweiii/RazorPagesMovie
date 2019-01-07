@@ -10,6 +10,16 @@
                 "${workspaceFolder}/RazoePagesMovie/RazoePagesMovie.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/RazoePagesMovie/RazoePagesMovie.csproj"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ]
 }
